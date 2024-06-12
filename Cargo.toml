@@ -1,0 +1,11 @@
+[package]
+name = "blahaj-rs"
+version = "0.1.0"
+edition = "2021"
+
+description = "A tool for summoning powerful gay ikea sharks to colorize your terminal :3"
+licence = "MIT"
+
+[dependencies]
+clap = { version = "4.4.2", features = ["cargo"] }
+rand = "0.8.5"
